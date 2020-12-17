@@ -1,0 +1,115 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+	<head>
+		<title>Contato</title>
+		<meta charset="utf-8">
+		<link rel="icon" 
+        type="image/jpg" 
+        href="icone.jpg" />
+		<style type="text/css">
+		
+	body{
+	text-align: center;
+	font-family: Arial;
+	padding: 50px 100px;
+	font-size: 13px;
+	font-family: arial, Tahoma, sans-serif;
+    background-image: url('fundo.png');
+    background-color:  #c0c0c0;
+	}
+
+	h2 {
+	margin-bottom: 20px;
+	color: #133141;
+	}
+
+	input, textarea {
+	padding: 10px;
+	border: 1px solid #333;
+	width: 200px;
+	color: #333;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 4px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 4px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 4px;	
+	}
+
+	textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+	}
+
+	form{
+		margin: 200px;
+		text-align: left;
+		display: inline-block;
+		width:30%;		
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 20px;
+	}
+	input[type=text],input[type=email],textarea {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+	.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #333; 
+	color: #FFF;
+	-moz-border-radius: 3px;
+	border-radius: 1em;
+    }
+
+    input[type=submit]{
+		padding:10px;
+        width: 90px;
+        height: 40px;
+        background-color: #333; 
+        color: #FFF;
+        border-radius: 0.5em;
+	    -moz-border-radius: 3px;
+	}
+
+	input[type=submit]:hover {
+		background-color: #C9C9C9;
+	}
+		</style>
+	</head>
+	<body>
+		<form action="envia-email.php" method="post">
+			<h2>Envie um Email</h2>
+			<label for="Nome">Nome</label>
+			<input type="text" name="nome" required><br>
+
+			<label for="Nome">Sobrenome</label>
+			<input type="text" name="sobrenome" required><br>
+
+			<label for="Nome">E-mail</label>
+			<input type="email" name="email" required><br>
+
+			<label for="Nome">Mensagem</label>
+			<textarea name="mensagem" required=""></textarea><br>
+
+			<input type="submit" name="Enviar"></br></br></br>
+		<a style= "
+        padding:10px;
+        width: 500px;
+        height: 40px;
+        background-color: #333; 
+        color: #FFF;
+        border-radius: 0.5em;
+	    -moz-border-radius: 3px;
+        text-decoration: none;
+        "href="index2.html">Menu</a> </br></br>
+		</form>
+
+	</body>
+	</html>
